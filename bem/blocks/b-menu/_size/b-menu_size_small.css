@@ -1,0 +1,9 @@
+.b-menu_size_small
+{
+    font-size: 1em;
+}
+
+.b-menu_size_small .b-menu__item
+{
+    margin-right: 0.5em;
+}

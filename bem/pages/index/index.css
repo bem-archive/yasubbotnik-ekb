@@ -1,5 +1,6 @@
 @import url(../../blocks/b-page/b-page.css);
 @import url(../../blocks/b-head/__logo/b-head__logo.css);
 @import url(../../blocks/b-menu/b-menu.css);
+@import url(../../blocks/b-menu/_size/b-menu_size_small.css);
 @import url(../../blocks/b-main/b-main.css);
 @import url(../../blocks/b-foot/b-foot.css);

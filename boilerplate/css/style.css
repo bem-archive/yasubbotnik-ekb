@@ -97,18 +97,30 @@ body {
     height: 62px;
 }
 
-#menu {
+#menu,
+#menuBottom {
     font-size: 1.5em;
     white-space: nowrap;
     margin: 1em 0;
 }
 
-#menu li {
+#menuBottom {
+    font-size: 1em;
+}
+
+#menu li,
+#menuBottom li {
     display: inline-block;
     margin-right: 0.75em;
     list-style: none;
 }
 
+#menuBottom li {
+    margin-right: 0.5em;
+    font-size: 1em;
+}
+
+#menuBottom .current,
 #menu .current {
     border-bottom: 4px solid #aaa;
 }
