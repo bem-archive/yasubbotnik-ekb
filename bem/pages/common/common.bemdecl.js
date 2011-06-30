@@ -1,0 +1,1 @@
+exports.deps = [{"block":"b-page"},{"block":"b-head"},{"block":"b-head","elem":"logo"},{"block":"b-foot"}];

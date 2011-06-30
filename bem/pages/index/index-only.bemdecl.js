@@ -1,0 +1,1 @@
+exports.deps = [{"block":"b-menu"},{"block":"b-menu","elem":"item"},{"block":"b-menu","elem":"item","mod":"state"},{"block":"b-menu","elem":"item","mod":"state","val":"current"},{"block":"b-menu","mod":"size"},{"block":"b-menu","mod":"size","val":"small"},{"block":"b-main"}];
