@@ -1,0 +1,23 @@
+.b-menu
+{
+    margin: 1em 0;
+    padding: 0;
+
+    white-space: nowrap;
+}
+
+.b-menu__item
+{
+    font-size: 1.5em;
+
+    display: inline-block;
+
+    margin-right: 0.75em;
+
+    list-style: none;
+}
+
+.b-menu__item_state_current
+{
+    border-bottom: 4px solid #aaa;
+}

@@ -1,0 +1,16 @@
+.b-main
+{
+    margin-top: 2em;
+}
+
+.b-main h2
+{
+    font-size: 150%;
+
+    margin-bottom: 0.5em;
+}
+
+.b-main p
+{
+    margin: 0 0 1em;
+}

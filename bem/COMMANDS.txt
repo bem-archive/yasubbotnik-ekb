@@ -1,0 +1,9 @@
+bem create level pages
+bem create block -l pages/ -t html -t bemdecl.js index
+
+bem create level blocks
+bem create block -l blocks/ b-head
+bem create elem -l blocks/ -b b-head logo -t css -t js
+bem create block -l blocks/ -t css b-page b-menu b-main b-foot
+
+bem build -d pages/index/index.bemdecl.js -o pages/index/ -n index -l blocks/ -t css -t js
