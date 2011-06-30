@@ -1,5 +1,7 @@
 .b-menu
 {
+    font-size: 1.5em;
+
     margin: 1em 0;
     padding: 0;
 
@@ -8,8 +10,6 @@
 
 .b-menu__item
 {
-    font-size: 1.5em;
-
     display: inline-block;
 
     margin-right: 0.75em;
