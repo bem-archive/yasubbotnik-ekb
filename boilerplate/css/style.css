@@ -155,6 +155,19 @@ body {
 }
 
 
+#promo {
+    text-align: center;
+    margin: 1em 0;
+    padding: 10em;
+    background: #eee;
+/*
+    // ========================================== \\
+   ||                                              ||
+   ||               Your PROMO styles !                  ||
+   ||                                              ||
+    \\ ========================================== //
+*/
+}
 
 
 .ir { display: block; text-indent: -999em; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr; }

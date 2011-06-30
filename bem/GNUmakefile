@@ -1,11 +1,13 @@
 
-all: pages/index/index.css pages/index/index.js
+all: $(wildcard pages/*/*.bemdecl.js)
 
-pages/index/index.css: FORCE
-	bem build -d $(@D)/index.bemdecl.js -o $(@D) -n index -l blocks -t css
+BEM_BUILD=bem build -d pages/$1/$1.bemdecl.js -o pages/$1 -n $1 -l blocks -t css -t js
 
-pages/index/index.js: FORCE
-	bem build -d $(@D)/index.bemdecl.js -o $(@D) -n index -l blocks -t js
-	cd $(@D); cat $(@F) | xargs cat >> $(@F)_ ; mv $(@F)_ $(@F)
+%.bemdecl.js: FORCE
+	$(call BEM_BUILD,$(*F))
+
+	cd $(@D) ; \
+		cat $(*F).js | xargs cat >> $(*F).js_ ; \
+			mv $(*F).js_ $(*F).js
 
 .PHONY: all FORCE
