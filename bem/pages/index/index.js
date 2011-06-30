@@ -1,1 +1,2 @@
-../../blocks/b-head/__logo/b-head__logo.js
+$('.b-head__logo')
+    .live('mouseover', function() { $(this).fadeOut().fadeIn() });
